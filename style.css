@@ -87,7 +87,9 @@ header {
   cursor: pointer;
 }
 .hero__button:hover {
-  background-color: #989797;
+  /* background-color: #989797; */
+  background-color: #244ce0;
+  border: 1px solid #244ce0;
   color: white;
   transition: 0.2s ease-in-out;
 }
@@ -100,6 +102,16 @@ header {
   column-gap: 1.2rem;
   color: #2c2c2c;
   flex-wrap: wrap;
+}
+.collection button:hover{
+  background-color: #244ce0;
+  border: 1px solid #244ce0;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.collection__1:hover,.collection__2:hover,.collection__3:hover{
+  transform: scale(0.8);
+  transition: 0.6s ease-in-out;
 }
 .collection__1 {
   height: 331px;
@@ -148,7 +160,9 @@ header {
   background-color: #ffffff;
   border: none;
   cursor: pointer;
+
 }
+
 .collection__3 button {
   width: 184px;
   margin-bottom: 30px;
@@ -189,6 +203,9 @@ header {
   border-bottom: 1px solid #f1f1f1;
   outline: none;
 }
+.newletters__input:focus{
+  border-bottom: 2px solid #244ce0;
+}
 .newletters__input::placeholder {
   color: #707070;
 }
@@ -218,7 +235,8 @@ header {
   cursor: pointer;
 }
 .newletters__mediaIcons i:hover {
-  background-color: #989797;
+  background-color: #244ce0;
+  border: 1px solid #244ce0;
   color: white;
   transition: 0.2s ease-in-out;
 }
