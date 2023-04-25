@@ -1,4 +1,4 @@
-# Country Data App
+# Minimalist Home Page
 
 This is a web application that displays information about countries from an Api. It was built with css grid and REACT
 
