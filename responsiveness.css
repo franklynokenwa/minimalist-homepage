@@ -1,0 +1,110 @@
+@media screen and (max-width: 1280px) {
+  .header__menu {
+    margin-right: 16rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header__menu {
+    margin-right: 8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 23rem;
+  }
+
+  .header__logo {
+    margin-left: -2rem;
+  }
+  .header__menu {
+    margin-right: 30rem;
+    margin-bottom: -18rem;
+    width: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    margin-top: 6rem;
+  }
+  .header__menu p {
+    padding: 1px;
+    line-height: 1.5px;
+  }
+  main {
+    margin-top: 22rem;
+  }
+  .collection__1 {
+    flex-basis: 100%;
+    margin-bottom: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .newletters__input {
+    width: 33rem;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .collection__2 {
+    margin-bottom: 1.2rem;
+  }
+  .newletters__input {
+    width: 20rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .collection__1 button {
+    padding-top: -25rem;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .hero__text--header h1 {
+    font-size: 3rem;
+  }
+  .newletters__input {
+    width: 17rem;
+  }
+  .newletters__details p {
+    width: 19rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .collection__1 {
+    width: 14rem;
+  }
+  .collection__1 button {
+    width: 120px;
+    margin-right: 43px;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 15px;
+  }
+
+  .collection__2 button,
+  .collection__3 button {
+    width: 123px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 13px;
+  }
+  .newletters__input {
+    width: 13rem;
+  }
+  .newletters__details p {
+    width: 15rem;
+    line-height: 1.4rem;
+  }
+}

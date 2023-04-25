@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -17,10 +17,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsiveness.css" />
     <title>Minamalist Home Page</title>
   </head>
   <body>
-    <header>
+    <header class="header__sticky">
       <div class="header__logo header--position">LOGO</div>
       <div class="header__menu header--position">
         <p><a href="/">Home</a></p>
@@ -33,52 +35,58 @@
         <p><a href="/">Blogs</a></p>
       </div>
     </header>
-    <section class="hero">
-      <div class="hero__text">
-        <div class="hero__text--header">
-          <h1>Enjoy This</h1>
-          <h1 class="hero__text--header2">Winter Trend</h1>
+    <main>
+      <section class="hero">
+        <div class="hero__text">
+          <div class="hero__text--header">
+            <h1>Enjoy This</h1>
+            <h1 class="hero__text--header2">Winter Trend</h1>
+          </div>
+          <p class="hero__text--paragraph">Discover now latest collection</p>
         </div>
-        <p class="hero__text--paragraph">Discover now latest collection</p>
-      </div>
-      <button class="hero__button">Shop Now</button>
-    </section>
+        <button class="hero__button">Shop Now</button>
+      </section>
 
-    <section class="collection">
-      <div class="collection__1">
-        <button>New Arrivals</button>
-      </div>
-      <div class="collection__2">
-        <button>Women Collection</button>
-      </div>
-      <div class="collection__3">
-        <button>Men Collection</button>
-      </div>
-    </section>
-    <section class="newletters">
-      <hr class="newletters__line1" />
-      <div class="newletters__details">
-        <h2 class="newletters__heading">Newletters</h2>
-        <p>Sign up to receive information about new products</p>
-        <div class="newletters__inputContainer">
-          <input
-            type="email"
-            placeholder="Email address"
-            class="newletters__input"
-          />
+      <section class="collection">
+        <div class="collection__1">
+          <button>New Arrivals</button>
+        </div>
+        <div class="collection__2">
+          <button>Women Collection</button>
+        </div>
+        <div class="collection__3">
+          <button>Men Collection</button>
+        </div>
+      </section>
+      <section class="newletters">
+        <hr class="newletters__line1" />
+        <div class="newletters__details">
+          <h2 class="newletters__heading">Newletters</h2>
+          <p>Sign up to receive information about new products</p>
+          <div class="newletters__inputContainer">
+            <input
+              type="email"
+              placeholder="Email address"
+              class="newletters__input"
+            />
+            <i
+              class="fa-solid fa-arrow-right newletters__inputContainer--arrow"
+            ></i>
+          </div>
+        </div>
+        <div class="newletters__mediaIcons">
           <i
-            class="fa-solid fa-arrow-right newletters__inputContainer--arrow"
+            class="fa-brands fa-facebook-f newletters__mediaIcons--facebook"
+          ></i>
+          <i
+            class="fa-brands fa-twitter twitter newletters__mediaIcons--twitter"
+          ></i>
+          <i
+            class="fa-brands fa-instagram newletters__mediaIcons--instagram"
           ></i>
         </div>
-      </div>
-      <div class="newletters__mediaIcons">
-        <i class="fa-brands fa-facebook-f newletters__mediaIcons--facebook"></i>
-        <i
-          class="fa-brands fa-twitter twitter newletters__mediaIcons--twitter"
-        ></i>
-        <i class="fa-brands fa-instagram newletters__mediaIcons--instagram"></i>
-      </div>
-      <hr class="newletters__line2" />
-    </section>
+        <hr class="newletters__line2" />
+      </section>
+    </main>
   </body>
 </html>
