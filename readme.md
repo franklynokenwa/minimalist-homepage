@@ -1,6 +1,6 @@
 # Minimalist Home Page
 
-This is a web application that displays information about countries from an Api. It was built with css grid and REACT
+This is a simple homepage of a clothing business that was built with HTML and CSS
 
 ## Table of contents
 
