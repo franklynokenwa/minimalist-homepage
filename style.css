@@ -18,6 +18,59 @@ header {
   height: 83px;
   padding-bottom: 23px;
 }
+.header__pop-up{
+  background-color: #f1f1f1;
+  font-size: 2rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  animation: popUp 3s;
+
+}
+@keyframes popUp {
+  /* Animation happens between 0% and 50% */
+  0% {
+    display: none;
+    margin-top: -10rem;
+  }
+  15% {
+    display: block;
+    opacity: 0.4;
+    margin-top: -5rem;
+  }
+  30% {
+    display: block;
+    opacity: 0.8;
+  }
+  75% {
+    display: block;
+    opacity: 1;
+  }
+  
+  
+}
+
+.pop-up-button{
+  background-color: gray;
+  border: none;
+  outline : 2px solid gray;
+  border-radius: 10px;
+
+  text-align: center;
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+}
+.pop-up-button:hover{
+  background-color: #244ce0;
+  border: 1px solid #244ce0;
+  color: white;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
 .header__logo {
   background-color: #c2bec2;
   margin-left: 66px;
